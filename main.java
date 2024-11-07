@@ -15,5 +15,9 @@ class Filmes {
     String sinopse;
     sinopse = "A história que nunca antes havia sido contada. A origem de Optimus Prime e Megatron, duas figuras lendárias que em sua juventude foram irmãos de armas, lutando juntos pelo futuro de seu planeta natal, Cybertron.";
     System.out.println(sinopse);
+    
+    //Atribuindo Estrelas
+    int classificação = (int)media/2;
+    System.out.println("Estrelas: "+ classificação);
   }
 }
